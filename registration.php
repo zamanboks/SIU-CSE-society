@@ -24,11 +24,11 @@
         <a href="#" class="logo"> <i class="fas fa-chevron-right"></i> SIU CSE SOCIETY </a>
 
         <nav class="navbar">
-            <a href="index.html">home</a>
-            <a href="result.html">Result</a>
+        <a href="index2.php">home</a>
+            <a href="results.php">Result</a>
+            <a href="about.php">about</a>
+            <a href="login.php">Login</a>
 
-            <a href="about.html">about</a>
-            <a href="login.html">Login</a>
         </nav>
 
         <div id="menu-btn" class="fas fa-bars"></div>
@@ -201,9 +201,7 @@
     <!-- footer section starts  -->
 
     <section class="footer">
-
-        <div class="credit"> created by <span>Asraf</span> | all rights reserved </div>
-
+        <div class="credit"> created by <span>Asraf, Majed, Fahim </span> | all rights reserved </div>
     </section>
 
     <!-- footer section ends -->

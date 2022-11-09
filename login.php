@@ -25,13 +25,14 @@
 
     <header class="header">
 
-        <a href="index2.html" class="logo"> <i class="fas fa-chevron-right"></i> SIU CSE SOCIETY </a>
+        <a href="index2.php" class="logo"> <i class="fas fa-chevron-right"></i> SIU CSE SOCIETY </a>
 
         <nav class="navbar">
-            <a href="index2.html">home</a>
-            <a href="results.html">Result</a>
-            <a href="about.html">about</a>
-            <a href="login.html">Login</a>
+		<a href="index2.php">home</a>
+            <a href="results.php">Result</a>
+            <a href="about.php">about</a>
+            <a href="login.php">Login</a>
+
 
 
         </nav>

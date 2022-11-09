@@ -21,13 +21,14 @@
 
     <header class="header">
 
-        <a href="index2.html" class="logo"> <i class="fas fa-chevron-right"></i> SIU CSE SOCIETY </a>
+        <a href="index2.php" class="logo"> <i class="fas fa-chevron-right"></i> SIU CSE SOCIETY </a>
 
         <nav class="navbar">
-            <a href="index2.html">home</a>
-            <a href="results.html">Result</a>
-            <a href="about.html">about</a>
-            <a href="login.html">Login</a>
+                    <a href="index2.php">home</a>
+            <a href="results.php">Result</a>
+            <a href="about.php">about</a>
+            <a href="login.php">Login</a>
+
 
 
         </nav>
@@ -46,7 +47,7 @@
             <p style="font-size: 40px; color: whitesmoke;">ICT FEST 2022 REGISTRATION OPEN NOW<p>
             <p style="font-size: 20px;color: grey;">Technology Support and Managed ICT Services</p>
             <!-- <p style="font-size: 30px ; margin-top: 50px; background-color: #ff99cc; border: 2px solid #fff; text-align: center;"><a href="#home" style="color: black;">REGISTRATION</a></p> -->
-            <a href="registration.html" class="btn" style="margin: 50px 20px 30px 0px ;"> REGISTRATION <span class="fas fa-chevron-right"></span> </a>
+            <a href="registration.php" class="btn" style="margin: 50px 20px 30px 0px ;"> REGISTRATION <span class="fas fa-chevron-right"></span> </a>
         </div>
 
         <div class="bannerImage" style="margin-right: 10%;">
@@ -136,7 +137,7 @@
     <!-- members section ends -->
 
     <section>
-        <a href="#" class="btn"> See More Winner Results <span class="fas fa-chevron-right"></span> </a>
+        <a href="result.php" class="btn"> See More Winner Results <span class="fas fa-chevron-right"></span> </a>
     </section>
 
 <!-- about section starts  -->
@@ -155,7 +156,7 @@
             <h3>we can touch you destiny.</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ducimus, quod ex cupiditate ullam in assumenda maiores et culpa odit tempora ipsam qui, quisquam quis facere iste fuga, minus nesciunt.</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus vero ipsam laborum porro voluptates voluptatibus a nihil temporibus deserunt vel?</p>
-            <a href="about.html" class="btn"> learn more about soceity activites <span class="fas fa-chevron-right"></span> </a>
+            <a href="about.php" class="btn"> learn more about soceity activites <span class="fas fa-chevron-right"></span> </a>
         </div>
 
     </div>
@@ -197,7 +198,9 @@
 
     </div>
 
-    <div class="credit"> created by <span>Asraf</span> | all rights reserved </div>
+    <div class="credit"> created by <span>Asraf, Majed, Fahim </span> | all rights reserved </div>
+
+    
 
 </section>
 
