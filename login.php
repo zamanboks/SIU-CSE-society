@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/login.css">
@@ -55,6 +54,8 @@
                 <img src="image/SIU.png" alt="">
 				<h4 class="company_title">SIU CSE SOCEITY</h4>
 			</div>
+
+			<form  name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">  
 			<div class="col-md-8 col-xs-12 col-sm-12 login_form ">
 				<div class="container-fluid">
 					<div class="row">
@@ -63,34 +64,64 @@
 					<div class="row">
 						<form control="" class="form-group">
 							<div class="row">
-								<input type="text" name="username" id="username" class="form__input" placeholder="Username">
+
+							<input type = "text" id ="user" name  = "user" /> 
 							</div>
 							<div class="row">
 								<!-- <span class="fa fa-lock"></span> -->
-								<input type="password" name="password" id="password" class="form__input" placeholder="Password">
+								<input type = "password" id ="pass" name  = "pass" />  
 							</div>
 							<div class="row">
 								<input type="checkbox" name="remember_me" id="remember_me" class="">
+								
 								<label for="remember_me">Remember Me!</label>
 							</div>
 							<div class="row">
-								<input type="submit" value="Submit" class="btn">
+							<input type =  "submit" id = "btn" value = "Login" />  
 							</div>
 						</form>
 					</div>
 					
 				</div>
 			</div>
+			</form>
+
 		</div>
 	</div>
 
 
-  
+	<script>  
+            function validation()  
+            {  
+                var id=document.f1.user.value;  
+                var ps=document.f1.pass.value;  
+                if(id.length=="" && ps.length=="") {  
+                    alert("User Name and Password fields are empty");  
+                    return false;  
+                }  
+                else  
+                {  
+                    if(id.length=="") {  
+                        alert("User Name is empty");  
+                        return false;  
+                    }   
+                    if (ps.length=="") {  
+                    alert("Password field is empty");  
+                    return false;  
+                    }  
+                }                             
+            }  
+        </script>  
+
+<script src="js/script.js"></script>
 <!-- footer section ends -->
 
 
 <!-- custom js file link  -->
-<script src="js/script.js"></script>
+
+
+
+
 
 </body>
 </html>
